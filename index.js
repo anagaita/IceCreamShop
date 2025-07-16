@@ -1,7 +1,7 @@
-const track = document.querySelector('.caroussel-track')
+const track = document.querySelector('.carousel-track')
 const slides = Array.from(track.children) /* creates an array with the list elements  - 0-8 */
-const leftBtn = document.querySelector('.caroussel-btn-left')
-const rightBtn = document.querySelector('.caroussel-btn-right')
+const leftBtn = document.querySelector('.carousel-btn-left')
+const rightBtn = document.querySelector('.carousel-btn-right')
 
 const slideWidth = slides[0].getBoundingClientRect().width /* why is it used? */
 
