@@ -3,7 +3,7 @@ const slides = Array.from(track.children) /* creates an array with the list elem
 const leftBtn = document.querySelector('.carousel-btn-left')
 const rightBtn = document.querySelector('.carousel-btn-right')
 
-const slideWidth = slides[0].getBoundingClientRect().width /* why is it used? */
+const slideWidth = slides[0].getBoundingClientRect().width
 
 /* arrange the slides next to one another */
 const setSlidePosition = (slide, index) => {
