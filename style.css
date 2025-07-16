@@ -306,6 +306,7 @@ li a:focus {
     top: 50%;
     left: 5%;
     transform: translateY(-50%);
+    z-index: 1
 }
 
 .caroussel-btn-right {
